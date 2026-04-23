@@ -1,0 +1,27 @@
+## 📸 Demo Screenshots
+
+### 1. Initial Product Inventory
+After application startup, the database is seeded with sample medical products:
+
+![Initial Products](docs/screenshots/screenshot-1-initial-products.png)
+
+### 2. Scheduler Auto-Triggers Purchase Orders
+When stock falls below threshold (triggered via SQL UPDATE), the `@Scheduled`
+task detects it within 30 seconds and generates X12 850 purchase orders:
+
+![Scheduler Log](docs/screenshots/screenshot-5-scheduler-triggered.png)
+
+### 3. Persistent Audit Log
+Every generated PO is logged with timestamp, file path, and status:
+
+![Audit Log](docs/screenshots/screenshot-6-audit-log-populated.png)
+
+### 4. SQL JOIN Query
+Relational query demonstrating cross-table data retrieval:
+
+![JOIN Query](docs/screenshots/screenshot-8-join-query.png)
+
+### 5. Generated X12 850 EDI Document
+The actual ANSI X12 850 content written to disk:
+
+![EDI File](docs/screenshots/screenshot-9-edi-file-content.png)

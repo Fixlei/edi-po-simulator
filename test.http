@@ -1,0 +1,11 @@
+### consume trigger restock
+POST http://localhost:8080/api/products/PHIL-MRI-001/consume?qty=20
+
+### consume ECG
+POST http://localhost:8080/api/products/PHIL-ECG-205/consume?qty=15
+
+### show orders
+GET http://localhost:8080/api/purchase-orders
+
+### show products status
+GET http://localhost:8080/api/products
