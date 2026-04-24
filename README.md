@@ -218,5 +218,5 @@ This project was built to practice skills listed in supply-chain and B2B-integra
 
 ---
 
-## 👤 Author
-minghua lei
+## 👤 Author & Tool
+Minghua Lei & Claude
