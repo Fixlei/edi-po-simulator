@@ -155,6 +155,8 @@ Navigate to **http://localhost:8080/h2-console** in your browser:
 
 Run `SELECT * FROM PURCHASE_ORDERS;` to see the audit trail.
 
+**Note** on Persistence: This project uses an **in-memory** H2 database for demonstration purposes. The console is accessible locally at http://localhost:8080/h2-console only when the application is running. For production, these credentials would be managed via environment variables.
+
 ---
 
 ## 📄 Sample Generated X12 850
